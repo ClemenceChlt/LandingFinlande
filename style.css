@@ -1,0 +1,103 @@
+/* Write some CSS below */
+body	{
+	font-family: CrimsonPro;
+	font-size: 18px;
+	background-color: rgb(255, 241, 254);
+	color: rgb(30, 30, 30);
+	margin: 3px;
+}
+
+h1 h2	{
+	font-family: CrimsonPro;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 { 
+	font-family: Nunito;
+	font-size: 16px;
+}
+
+p { 
+	font-family: Nunito;
+	font-size: 14px;
+}
+
+a  	{
+	text-decoration: none;
+}
+
+.banner {  
+	text-align: center;
+	background-image: url(images/banner1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 100px 0px;
+}
+
+.btn-white	{
+	color: black;
+	background-color: white;
+	padding: 10px 35px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.btn-pink	{
+	color: black;
+	background-color: rgb(255, 238, 238);
+	padding: 15px 25px;
+	margin-top: 70px;
+	border-radius: 50px;
+	font-size: 14px;
+}
+
+.container { 
+	width: 900px;
+	margin: auto;
+	margin-bottom: 20px;
+ }
+
+ .card-white {
+ 	background-color: white;
+ 	width: 220px;
+ 	text-align: center;
+ 	padding: 24px;
+ 	margin: 8px;
+ 	border-radius: 4px;
+ 	box-shadow: 0px 0px 1 px grey;
+ 	box-shadow: 6px 6px 16px rgba(130,130,130, 0.7) ;
+
+ }
+
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.cards	{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.vidéo {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.footer	{
+	background-color: rgb(150, 150, 150);
+	margin-bottom: 0px;
+	padding: 24px;
+	text-align: center;
+}
+
+
+
